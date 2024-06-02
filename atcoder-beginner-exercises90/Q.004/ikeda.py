@@ -11,7 +11,6 @@ for a_list in long_list:
     a = sum(a_list)
     h_sum_list.append(a)
 
-
 for num in range(w):
     w_list = []
     for b_list in long_list:
