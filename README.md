@@ -1,8 +1,8 @@
 # Gitの使い方
-用語がわからなくなったらbacklogにまとまってる
+用語がわからなくなったらbacklogにまとまってる  
 <https://n-insight.backlog.com/alias/wiki/3426385>
 ## vscodeでターミナルを開く
-参考
+参考  
 <https://www.javadrive.jp/vscode/terminal/index1.html>
 
 ## クローン
@@ -17,7 +17,7 @@ cd ..  #一つ上の階層のファイルに移動する
 ```
 
 ```
-git clone git@github.com:NIikeda/AtCoder-NI.git
+git clone https://github.com/tomoki4212/Atcoder-NI.git
 ```
 こんな感じ
 ![image](https://github.com/NIikeda/AtCoder-NI/assets/158264039/96f6aca1-85c1-42fd-b7f3-2d8a2526661b)
@@ -51,8 +51,8 @@ git add .
 ```
 git commit -m "I solved Q1."
 ```
--mの後はなんでもいいが何かしら記述しないとコミットできない
-解いた問題番号でも書いておくのがいいだろう
+-mの後はこのコミットが何をしたかをコメントする。なんでもいいが何かしら記述しないとコミットできない。  
+今回の場合、解いた問題番号でも書いておくのがいいだろう
 
 ## pushする
 ローカルリポジトリをリモートリポに反映する
@@ -64,8 +64,8 @@ git commit -m "I solved Q1."
 ```
 git pull <remote_name> <branch-name>
 ```
-`<remote_name>`: `git remote -v`で確認が可能。通常は自動で`origin`となっているので`origin`を入れれば大丈夫
-`<branch-name>`: 反映させたいブランチ名を入れる。要するに、今回のケースなら`main`
+`<remote_name>`: `git remote -v`で確認が可能。通常は自動で`origin`となっているので`origin`を入れれば大丈夫  
+`<branch-name>`: 反映させたいブランチ名を入れる。要するに、今回のケースなら`main`  
 
 例
 ```
@@ -78,8 +78,8 @@ pushする
 ```
 git push <remote_name> <branch-name>
 ```
-`<remote_name>`: `git remote -v`で確認が可能。通常は自動で`origin`となっているので`origin`を入れれば大丈夫
-`<branch-name>`: 反映するブランチ名を入れる。要するに、自分が作成したbranch名。今回のケースなら`feature-ikeda`
+`<remote_name>`: `git remote -v`で確認が可能。通常は自動で`origin`となっているので`origin`を入れれば大丈夫  
+`<branch-name>`: 反映するブランチ名を入れる。要するに、自分が作成したbranch名。今回のケースなら`feature-ikeda`  
 例
 ```
 git push origin feature-ikeda
