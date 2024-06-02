@@ -86,3 +86,24 @@ git push <remote_name> <branch-name>
 git push origin feature-ikeda
 ```
 
+## プルリク送る
+https://note.com/ym202110/n/n20379357fdd5  
+
+この時、レビュワーをきちんと設定する
+
+## レビューが終わったらmainにマージする
+これは池田がやります
+
+## ローカルリポのmainブランチをpull(更新)する
+リモートリポが更新されている状態なので、それをローカルに反映する  
+ブランチをmainに切り替える
+```
+git checkout main
+```
+ローカルに反映
+```
+git pull origin main
+```
+
+
+## プルリク後のマージする前に他の問題を解く場合、次の問題を解くための新たなブランチを作成
