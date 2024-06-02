@@ -1,6 +1,9 @@
 # Gitの使い方
 用語がわからなくなったらbacklogにまとまってる  
 <https://n-insight.backlog.com/alias/wiki/3426385>
+## GitHubのアカウントを発行
+共同制作者に追加する
+
 ## vscodeでターミナルを開く
 参考  
 <https://www.javadrive.jp/vscode/terminal/index1.html>
@@ -21,8 +24,6 @@ git clone https://github.com/tomoki4212/Atcoder-NI.git
 ```
 こんな感じ
 ![image](https://github.com/NIikeda/AtCoder-NI/assets/158264039/96f6aca1-85c1-42fd-b7f3-2d8a2526661b)
-
-## GitHubのアカウントでsshキーを登録する
 
 ## ブランチを作成
 
@@ -84,13 +85,4 @@ git push <remote_name> <branch-name>
 ```
 git push origin feature-ikeda
 ```
-usernameとpasswardの入力
-```
-Username for 'https://github.com': your_github_username
-Password for 'https://your_github_username@github.com': your_personal_access_token
-```
-
-
-
-
 
