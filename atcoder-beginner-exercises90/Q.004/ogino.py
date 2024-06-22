@@ -21,3 +21,5 @@ answer = row_sum + col_sum - matrix
 # 答えを出力
 for sublist in answer:
     print(*sublist)
+    
+print(row_sum +col_sum)
