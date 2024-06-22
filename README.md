@@ -1,3 +1,6 @@
+# お役立ちサイト集
+[コレクション](https://www.google.com/collections/s/list/CK3fhkAQQiqRXI2X_8TCXg/3hcwyjEn2g8)
+
 # Gitの使い方
 用語がわからなくなったらbacklogにまとまってる  
 <https://n-insight.backlog.com/alias/wiki/3426385>
